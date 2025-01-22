@@ -6,7 +6,7 @@ try { //Otra opción con un manejador de excepciones: https://stackoverflow.com/
     $dotenv = Dotenv\Dotenv::createImmutable('../');
     $dotenv->load();
     Com\Daw2\Core\FrontController::main();
-} catch (\Exception $e) {
+} catch (\Throwable $e) {
     http_response_code(500);
     error_log($e);
     if ($_ENV['app.debug']) {

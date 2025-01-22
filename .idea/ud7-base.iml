@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/www/app" isTestSource="false" packagePrefix="Com\Daw2\" />
+      <sourceFolder url="file://$MODULE_DIR$/www/spec" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/firebase/php-jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/google/apiclient" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/google/apiclient-services" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/google/auth" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpseclib/phpseclib" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/steampixel/simple-php-router" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/vlucas/phpdotenv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
