@@ -92,8 +92,8 @@ class CategoriaController extends BaseController
                     $model->update(
                         $id,
                         [
-                        'id_padre' => $_put['id_padre'] ?? null,
-                        'nombre_categoria' => $_put['nombre_categoria']
+                            'id_padre' => $_put['id_padre'] ?? null,
+                            'nombre_categoria' => $_put['nombre_categoria']
                         ]
                     )
                 ) {

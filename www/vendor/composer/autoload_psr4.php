@@ -27,4 +27,5 @@ return array(
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
     'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
     'Com\\Daw2\\' => array($baseDir . '/app'),
+    'Ahc\\Jwt\\' => array($vendorDir . '/adhocore/jwt/src'),
 );

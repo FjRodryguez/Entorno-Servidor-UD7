@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0
+class ComposerStaticInit33bd68899c54a24af39d3452563e53a6
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -63,6 +63,10 @@ class ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0
         'C' => 
         array (
             'Com\\Daw2\\' => 9,
+        ),
+        'A' => 
+        array (
+            'Ahc\\Jwt\\' => 8,
         ),
     );
 
@@ -152,6 +156,10 @@ class ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
+        'Ahc\\Jwt\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/adhocore/jwt/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -196,10 +204,10 @@ class ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit5d7da4bbdb0c2f1085dfb58b2b1970a0::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit33bd68899c54a24af39d3452563e53a6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit33bd68899c54a24af39d3452563e53a6::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit33bd68899c54a24af39d3452563e53a6::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit33bd68899c54a24af39d3452563e53a6::$classMap;
 
         }, null, ClassLoader::class);
     }

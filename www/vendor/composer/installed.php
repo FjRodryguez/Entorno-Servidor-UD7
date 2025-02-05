@@ -10,6 +10,15 @@
         'dev' => true,
     ),
     'versions' => array(
+        'adhocore/jwt' => array(
+            'pretty_version' => '1.1.2',
+            'version' => '1.1.2.0',
+            'reference' => '6c434af7170090bb7a8880d2bc220a2254ba7899',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../adhocore/jwt',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'com/daw2' => array(
             'pretty_version' => '1.0.0+no-version-set',
             'version' => '1.0.0.0',
